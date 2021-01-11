@@ -9,5 +9,9 @@ Route::get('/', function () {
 
 Route::view('/contact', 'pages.contact');
 
+Route::view('/tours', 'pages.tour');
+
 Route::view('/destinations', 'pages.destinations');
+
+Route::view('/tripoffers', 'pages.tripoffers');
 

@@ -184,7 +184,7 @@
     </div>
 
 
-    <section id="about" class="about-section pt-100 pb-70">
+    <section id="#about" class="about-section pt-100 pb-70">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">

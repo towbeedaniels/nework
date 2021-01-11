@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Author: HiBootstrap, Category: Tourism, Multipurpose, HTML, SASS, Bootstrap" />
+    <meta name="description" content="Author: " />
 
     <title>@yield('title')</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
@@ -52,11 +54,6 @@
                                 <img src="assets/img/logo_.png" alt="logo">
                             </a>
                         </div>
-                        <div class="cart responsive">
-                            <a href="cart.html" class="cart-btn"><i class='bx bx-cart'></i>
-                                <span class="badge">0</span>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -83,22 +80,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="#" class="nav-link toggle">Tours<i
-                                            class='bx bxs-chevron-down'></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="tours.html" class="nav-link">Tours</a>
-                                        </li>
-                                        <li class="nav-item">
+                                <li class="nav-item">
                                             <a href="special-offers.html" class="nav-link">Trip Offers</a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about-us.html" class="nav-link">About</a>
+                                    <a href="/tours" class="nav-link">Tours</a>
                                 </li>
-                                <li class="nav-item"><a href="#" class="nav-link toggle">Blog</a>
-                                </li>
+                                {{-- <li class="nav-item"><a href="#" class="nav-link toggle">Blog</a>
+                                </li> --}}
                                 <li class="nav-item">
                                     <a href="/contact" class="nav-link">Contact</a>
                                 </li>
@@ -225,7 +214,10 @@
 
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+
     <script src="assets/js/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
     <script src="assets/js/popper.min.js"></script>
 

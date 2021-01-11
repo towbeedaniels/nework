@@ -49,7 +49,7 @@
                     <div class="main-responsive-menu">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="assets/img/logo1.png" alt="logo">
+                                <img src="assets/img/logo_.png" alt="logo">
                             </a>
                         </div>
                         <div class="cart responsive">

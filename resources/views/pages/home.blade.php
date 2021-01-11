@@ -203,8 +203,8 @@
                             About Us
                         </h2>
                         <h6>
-                            Top Tour Operators and Travel Agency. We offering in total 793 tours and holidays throughout
-                            the world. Combined we have received 1532 customer reviews and an average rating of 5 out of
+                            On Eagles Wings Tour and Travel Agency offers in total 793 tours and holidays throughout
+                            the world. Combined we have received 1532 customer reviews and an average rating of 4 out of
                             5 stars.
                         </h6>
                         <p>

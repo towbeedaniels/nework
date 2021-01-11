@@ -15,3 +15,5 @@ Route::view('/destinations', 'pages.destinations');
 
 Route::view('/tripoffers', 'pages.tripoffers');
 
+Route::view('/destinationdetails', 'pages.destinationdetails');
+

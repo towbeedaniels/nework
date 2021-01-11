@@ -32,7 +32,19 @@
 
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    
+    <link rel="manifest" href="assets/img/site.webmanifest">
+    
+    <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    
+    <meta name="msapplication-TileColor" content="#da532c">
+    
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -76,12 +88,12 @@
                                             <a href="/destinations" class="nav-link">Destinations</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="destination-details.html" class="nav-link">Destinations Details</a>
+                                            <a href="/destinationdetails" class="nav-link">Destinations Details</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                            <a href="special-offers.html" class="nav-link">Trip Offers</a>
+                                            <a href="/tripoffers" class="nav-link">Trip Offers</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="/tours" class="nav-link">Tours</a>

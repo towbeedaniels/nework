@@ -78,7 +78,7 @@
                         <div class="collapse navbar-collapse mean-menu">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a href="/" class="nav-link active toggle">Home</a>
+                                    <a href="/" class="nav-link toggle">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link toggle">Destinations<i
@@ -123,8 +123,8 @@
                     <div class="col-lg-3 col-md-5 col-sm-6 col-12">
                         <div class="footer-widget">
                             <div class="navbar-brand">
-                                <a href="index.html">
-                                    <img src="assets/img/logo2.png" alt="Logo" />
+                                <a href="/">
+                                    <img src="assets/img/eagle.png" alt="Logo" />
                                 </a>
                             </div>
                             <p>You can dream, create, design, and build the most wonderful place.</p>
@@ -143,12 +143,12 @@
                             <h5>Latest News</h5>
                             <ul class="footer-news">
                                 <li class="content">
-                                    <a href="blog-details.html">Surrounded by the peaceful waters of Lake Victoria.</a>
+                                    <a href="#">Surrounded by the peaceful waters of Lake Victoria.</a>
                                     <span>October 05, 2020</span>
                                     <hr>
                                 </li>
                                 <li class="content">
-                                    <a href="blog-details.html">Morning came very early today. The alarm went off at 4
+                                    <a href="#">Morning came very early today. The alarm went off at 4
                                         am</a>
                                     <span>October 05, 2020</span>
                                 </li>
@@ -160,19 +160,13 @@
                             <h5>Quick Links</h5>
                             <ul class="footer-links">
                                 <li>
-                                    <a href="about-us.html">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="destinations.html">Destinations</a>
-                                </li>
-                                <li>
-                                    <a href="blog-style-1.html">Latest Blog</a>
+                                    <a href="/destinations">Destinations</a>
                                 </li>
                                 <li>
                                     <a href="team.html">Our Team</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contact Us</a>
+                                    <a href="/contact">Contact Us</a>
                                 </li>
                             </ul>
                         </div>

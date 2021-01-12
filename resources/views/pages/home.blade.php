@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'On Eagles Wings Tours and Travel')
+
+@section('class', 'active')
     
 
 

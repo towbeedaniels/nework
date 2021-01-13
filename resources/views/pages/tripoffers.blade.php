@@ -2,7 +2,7 @@
 
 @section('title', 'Trip Offers')
 
-
+@section('h2', 'active')
 
 @section('content')
      <div class="page-title-area ptb-100">

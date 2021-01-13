@@ -2,7 +2,7 @@
 
 @section('title', 'Tours')
 
-
+@section('h3', 'active')
 
 @section('content')
         <div class="page-title-area ptb-100">

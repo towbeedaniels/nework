@@ -2,7 +2,7 @@
 
 @section('title', 'On Eagles Wings Tours and Travel')
 
-@section('class', 'active')
+@section('h1', 'active')
     
 
 
@@ -186,13 +186,13 @@
     </div>
 
 
-    <section id="#about" class="about-section pt-100 pb-70">
+    <section id="about" class="about-section pt-100 pb-70">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="video-content mb-30">
                         <div class="video-image">
-                            <img src="assets/img/about1.jpg" alt="video" />
+                            <img src="assets/img/pic1.png" alt="video" />
                         </div>
                         <a href="https://www.youtube.com/watch?v=QSwvg9Rv2EI" class="youtube-popup video-btn">
                             <i class='bx bx-right-arrow'></i>
@@ -252,8 +252,7 @@
                             </div>
                         </div>
                         <div class="about-btn">
-                            <a href="contact.html" class="btn-primary">Contact Us</a>
-                            <a href="about-us.html" class="btn-primary">Read More</a>
+                            <a href="/contact" class="btn-primary">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -973,7 +972,7 @@
     </section>
 
 
-    <section id="blog" class="blog-section pt-100 pb-70">
+    {{-- <section id="blog" class="blog-section pt-100 pb-70">
         <div class="container">
             <div class="section-title">
                 <h2>Latest News & Blog</h2>
@@ -1116,6 +1115,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     
 @endsection

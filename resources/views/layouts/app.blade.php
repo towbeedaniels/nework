@@ -42,7 +42,7 @@
     
     <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
     
-    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileColor" content="#b91d47">
     
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -78,14 +78,17 @@
                         <div class="collapse navbar-collapse mean-menu">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a href="/" class="nav-link toggle">Home</a>
+                                    <a href="/" class="nav-link toggle @yield('h1')">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link toggle">About</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link toggle">Destinations<i
                                             class='bx bxs-chevron-down'></i></a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="/destinations" class="nav-link">Destinations</a>
+                                            <a href="/destinations" class="nav-link @yield('active')">Destinations</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="/destinationdetails" class="nav-link">Destinations Details</a>
@@ -93,15 +96,15 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                            <a href="/tripoffers" class="nav-link">Trip Offers</a>
+                                            <a href="/tripoffers" class="nav-link @yield('h2')">Trip Offers</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/tours" class="nav-link">Tours</a>
+                                    <a href="/tours" class="nav-link @yield('h3')">Tours</a>
                                 </li>
                                 {{-- <li class="nav-item"><a href="#" class="nav-link toggle">Blog</a>
                                 </li> --}}
                                 <li class="nav-item">
-                                    <a href="/contact" class="nav-link">Contact</a>
+                                    <a href="/contact" class="nav-link @yield('h4')">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -118,9 +121,9 @@
 
     <footer class="footer-area">
         <div class="container">
-            <div class="footer-top pt-100 pb-70">
+            {{-- <div class="footer-top pt-100 pb-70">
                 <div class="row">
-                    <div class="col-lg-3 col-md-5 col-sm-6 col-12">
+                    <div class="col-lg-4 col-md-5 col-sm-6 col-12">
                         <div class="footer-widget">
                             <div class="navbar-brand">
                                 <a href="/">
@@ -155,7 +158,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-5 col-sm-6 col-12">
+                    <div class="col-lg-4 col-md-5 col-sm-6 col-12">
                         <div class="footer-widget">
                             <h5>Quick Links</h5>
                             <ul class="footer-links">
@@ -201,9 +204,9 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> 
                 </div>
-            </div>
+            </div> --}}
             <hr>
             <div class="copy-right-area">
                 <div class="container">

@@ -7,7 +7,9 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-Route::view('/contact', 'pages.contact');
+Route::get('/contact', 'ContactController@getContact');
+
+Route::post('/contact', 'ContactController@saveContact');
 
 Route::view('/tours', 'pages.tour');
 

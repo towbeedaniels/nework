@@ -81,9 +81,6 @@
                                     <a href="/" class="nav-link toggle @yield('h1')">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#about" class="nav-link toggle">About</a>
-                                </li>
-                                <li class="nav-item">
                                     <a href="#" class="nav-link toggle">Destinations<i
                                             class='bx bxs-chevron-down'></i></a>
                                     <ul class="dropdown-menu">

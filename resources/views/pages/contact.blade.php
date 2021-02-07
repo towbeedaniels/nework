@@ -25,8 +25,14 @@
 <div class="contact-section">
     <div class="container">
         <div class="main-form ptb-100">
-            <form id="contactForm">
+            <form method="POST" action="contact">
+              {{ csrf_field() }}
                 <h3 class="sub-title">Contact Us</h3>
+                @if(Session::has('success'))
+                    <div class="alert alert-success">
+        	            {{ Session::get('success') }}
+                    </div>
+                 @endif
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
